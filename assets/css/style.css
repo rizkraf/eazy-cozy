@@ -1,0 +1,273 @@
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-header {
+  background-color: #0f1837;
+  background-image: url(../images/Union.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #83d987;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #9094a2;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #676a74;
+}
+
+.navbar-light .navbar-toggler {
+  color: #9de1a0;
+  border-color: #83d987;
+  background-color: #83d987;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(19, 32, 57, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.btn-success {
+  background-color: #83d987;
+  border-color: #83d987;
+  color: #132039;
+  font-weight: 500;
+}
+
+.header-wrap {
+  margin-top: 6rem;
+}
+
+.position-relative {
+  z-index: 2;
+}
+
+.card {
+  border-radius: 6px;
+}
+
+.header-text {
+  color: #ffffff;
+}
+
+.form-label {
+  color: #020b2a;
+}
+
+.form-select {
+  border: none;
+  font-weight: 500;
+  background-image: none;
+}
+
+.features-wrapper {
+  background-color: #f5f6f8;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.features-img {
+  background-image: url(../images/image-section.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-title a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.card-features {
+  border-radius: 10px;
+  border-style: none;
+}
+
+.card-badge {
+  background-color: #f5d35c;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.img-container {
+  width: 300px;
+  height: 100px;
+}
+
+.text-features p {
+  margin-bottom: 0;
+  color: #0f1837;
+}
+
+.text-tip p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #898889;
+  margin-bottom: 0;
+}
+
+.top-0 {
+  top: 1.5rem !important;
+}
+
+.bottom-1 {
+  bottom: 2rem !important;
+}
+
+.end-1 {
+  right: 7rem !important;
+}
+
+.text-currency {
+  color: #0a9f82;
+}
+
+.text-badge {
+  padding: 1.5rem 1rem;
+}
+
+.text-badge h6 {
+  margin-bottom: 0;
+}
+
+.text-reason {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.row-features {
+  margin-bottom: 3rem;
+}
+
+.badge-number {
+  background-color: #e7e5f9 !important;
+  color: #5943a6;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  line-height: 35px;
+}
+
+.ms-custom {
+  margin-left: 6rem;
+}
+
+.me-custom {
+  margin-right: 6rem;
+}
+
+.mt-custom {
+  margin-top: 5rem;
+}
+
+.statistic p {
+  font-weight: 400;
+  color: #8a8c97;
+}
+
+.card-product {
+  border-style: none;
+}
+
+.body-product {
+  padding: 20px 0;
+}
+
+.product-img {
+  border-radius: 15px;
+}
+
+.product-price {
+  color: #0a9f82;
+}
+
+.product-sub {
+  color: #898889;
+}
+
+.product-info {
+  border-radius: 0 0 10px 0;
+  color: #5943a6 !important;
+  background-color: #ffffff !important;
+  font-size: 16px;
+  width: 130px;
+  height: 50px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.top-1 {
+  top: 0;
+}
+
+.product-wrapper {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.product-link a {
+  color: #9094a2;
+}
+
+.product-link a:hover {
+  color: #0f1837;
+}
+
+@media (max-width: 575.98px) {
+  .image-features {
+    width: 90%;
+  }
+  .row-features {
+    margin-bottom: 2rem;
+  }
+  .text-features p {
+    font-size: 12px;
+  }
+  .text-reason {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .header-wrap {
+    margin-top: 3rem;
+  }
+
+  .text-badge h6 {
+    font-size: 14px;
+  }
+
+  .text-tip h6 {
+    font-size: 14px;
+  }
+
+  .text-tip p {
+    font-size: 10px;
+  }
+
+  .text-currency h6 {
+    font-size: 14px;
+  }
+
+  .statistic {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .btn-group {
+    width: 100%;
+  }
+
+  .select-wrapper {
+    margin-bottom: 1rem;
+  }
+
+  .img-header {
+    visibility: hidden !important;
+  }
+}
